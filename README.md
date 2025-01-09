@@ -53,10 +53,11 @@ T06VWN_toa_path/
 
 
 - Visualization images
-  - Clear Pixel: Blue    (0,      0,    255)  
-  - Cloud Pixel: Red     (255,    0,      0)
-  - Shadow Pixel: Yellow (255,    255,    0)  
-
+  - Clear Pixel:    (0,      0,    255)  
+  - Cloud Pixel:    (255,    0,      0)
+  - Shadow Pixel:   (255,    255,    0)
+  - Fill Pixel:     (0,    0,    0)
+   
 
 ## Citation
 Luo, D., Zhang, H. K., Ornelas De Lemos, H., et al., 2025. A global applicable Sentinel-2 cloud and shadow detection model based on Swin Transformer. Science of Remote Sensing. under review.
