@@ -1,18 +1,21 @@
 # Cloud-and-Shadow-Prediction
  Python implementation for detecting Sentinel-2 clouds and shadows using Swin-Unet model.
 
-## Features
-- Supports multi-band remote sensing data.
-- Processes input data for cloud and shadow classification.
-- Outputs QA and visualizations.
-- Includes resampling and patch-based processing for improved prediction efficiency.
-
 ## Requirements
 - **Programming Languages**: Python 3.7+
 - **Libraries**:
   - `tensorflow`
   - `numpy`
   - `rasterio`
+## Included files
+#### 1. `apply_prediction_v14_3c.py`
+This is the main script for applying the trained  model to detect clouds and shadows in multi-band Sentinel-2 data.
+
+
+
+
+
+ 
 ## Usage
 `python apply_prediction_v14_3c.py <toa_path> <model_path> <prefix> <output_dir>`
  - toa_path: Path to the directory containing the TOA images.
