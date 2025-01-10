@@ -1,5 +1,5 @@
 # Cloud-and-Shadow-Prediction
- Python implementation for detecting Sentinel-2 clouds and shadows using Swin-Unet model.
+ The codes for detecting Sentinel-2 clouds and shadows using Swin-Unet model. The model was already trained and this is ready-to-use codes. Details are here Luo, D., Zhang, H. K., Ornelas De Lemos, H., et al., 2025. A global applicable Sentinel-2 cloud and shadow detection model based on Swin Transformer. Science of Remote Sensing. under review. The trained model was too huge to be here and was stored in *****. 
 
 ## Requirements
 - **Programming Languages**: Python 3.7+
@@ -20,6 +20,7 @@
 -ENVI density slice range file
 6. `mean.std.no.fill.stl2.v2.csv`
 -csv file storing the mean and standard deviation values for each band used for normalization
+
 ## Usage
 `python apply_prediction_v14_3c.py <toa_path> <model_path> <prefix> <output_dir>`
  - toa_path: Path to the directory containing the TOA images.
